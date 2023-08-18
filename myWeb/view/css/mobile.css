@@ -1,0 +1,104 @@
+/* 12May */
+@media screen and (max-width: 800px) {
+    * {
+       font-size: large;       
+    }
+    
+    .menu-dropdown {
+        display: inline-block;
+        position: relative;
+        color: #001838;
+        align-items: center;
+        margin: 0 0 0 30px;
+    }
+
+    .menu-second{
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        width: 100%;       
+        max-height: 330px;
+        z-index: 1;
+        margin: 15px 0 0 0;
+
+    }
+
+    .menu-second a {
+        padding: 0 0;
+        display: block;
+
+    }
+
+    .menu-second a:hover {        
+        color: #001838;
+        box-shadow: 0 1px #001838;
+        padding: 0 0;
+        
+    }
+
+    .menu:hover .menu-second{
+        display: block; 
+        
+    }
+    .menu-second--fleft{
+        display: none;
+    }
+    .boxcenter{
+        width: 100%;
+        margin: 0 auto;
+        /* background-color: antiquewhite; */      
+    }
+
+    .boxtrai{
+        float: left;
+        display: none;
+        width: 0%;
+        color: #333;
+        /* border: 1px #CCC solid; */    
+    }
+
+    .boxphai{
+        float: left;
+        width: 100%;
+        /* border: 1px yellow solid; */
+    }
+    .boxsp{
+        float: left;
+        width: 46%;
+        min-height: 100px;
+        border-bottom: 1px #EEE solid;
+        border-radius: 5px;
+        border: 1px #CCC solid;
+        height: 350px;
+        padding: 1% 0;
+        margin: 1% 1%;
+        text-align: center;
+    
+    }
+
+    .footer{
+        width: 100%;
+        margin: 0 0;
+        border-radius: 0;
+    }
+    .pre-footer{
+        width: 100%;
+        background-color: #98C5E9;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;      
+
+    }
+
+    /* PAGES TAI LIEU (tin tuc) */
+    .boxnews-left-img img{   
+
+        margin: 0 10px; 
+        
+    }
+    .boxnews-right-infor{
+        margin: 5px 0 0 200px;
+        width: 70%;
+        height: 100px;
+        /* border: 2px solid red;  */
+    }
+}

@@ -1,0 +1,48 @@
+/* menu */
+.menu-icon{
+    color: #001838;
+    font-size: 20px;
+    margin: 10px;    
+    /* border: 2px blue solid; */
+}
+
+
+
+/* footer */
+.footer{
+    /* display: block; */
+    font-size: 14px;
+    text-align: center;
+    color: #98C5E9;
+    background-color: #001838;
+    height: 270px;
+    /* border: 1px green solid; */
+}
+.footer__icon--top {
+    right: 3%;
+    width: 50px;
+    bottom: 7%;
+    position: fixed;
+}
+
+/*The under are socical network apps */
+.footer__icon{
+    font-size: 20px;
+    color: #98C5E9;
+    margin: 10px;
+    
+}
+
+.pre-footer{
+    text-align: center;
+    padding: 0 0;
+    background-color: #98C5E9;
+    height: 150px;
+    width: 82%;
+    /* margin-top: 50px; */
+    margin: 0 auto;   
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
